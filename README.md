@@ -1,51 +1,68 @@
 # I Bought the "Framework Desktop"
+
 ![image](photos/desktop.png)
-#### Specs
-CPU: AMD Ryzen 8600g (210$)
 
-GPU: AMD Radeon 760M (APU)
+## Specs
 
-RAM: 16GB (2x8GB) ADATA DDR5 4800MHz (73$ **USED**)
+| Component | Details |
+|---------|---------|
+| **CPU** | AMD Ryzen 8600G ($210) |
+| **GPU** | AMD Radeon 760M (APU) |
+| **RAM** | 16GB (2×8GB) ADATA DDR5 4800MHz ($73 **USED**) |
+| **Motherboard** | Gigabyte A620I AX ($145) |
+| **Case** | InWin Chopin MAX ($115) |
+| **SSD** | ADATA Legend 860 ($70) |
+| **Total Price** | **$613** |
 
-MB: Gigabyte A620I AX (145$)
+---
 
-Case: Inwin Chopin MAX (115$)
+## Benchmarks
 
-SSD: ADATA Legend 860 (70$)
+Before starting with the benchmarks, it is important to mention that all benchmarks were recorded using a **capture card**, meaning there was no performance loss due to recording.
 
-Total Price: 613$
+This section is divided into two parts:
 
-#### Benchmarks
+- **General**: Benchmarks taken after the BIOS update, focusing on overall performance.
+- **Before vs. After BIOS Update**: Benchmarks recorded before and after installing the newest BIOS update, which resulted in a surprising performance boost.
 
-Before we start with the benchmarks I think it is very important to mention that all benchmarks were recorded using a **capture card** meaning that there are no performance losses. 
+---
 
-This specific part is divided into two categories. 
+### General
 
-- General: Benchmarks taken after BIOS Update, that focus on comparison between the Framework Dekstop
-- Before vs. After BIOS Update: As mentioned in the video, I performed all of the benchmarks before and after installing the newest BIOS update and this led to a very suprising performance boost which is talked about in this section
+In Cinebench, the biggest difference was in the multicore result.
 
-##### General
-In Cinebench the biggest difference was in the multicore result.
-![image](photos/cinebench_single.png)
-![image](photos/cinebench_multi.png)
-I was a little dissapointed by the results. I did not expect my computer to perform so much worse compared to the average when it comes to the same CPU-GPU combo. But by my findings there are two reasons for this
+<p align="center">
+  <img src="photos/cinebench_single.png" width="48%">
+  <img src="photos/cinebench_multi.png" width="48%">
+</p>
 
-- Low Memory Frequency: In my opinion the biggest reason. Because I was not able to buy faster RAM, the limited memory bandwidth caused the GPU to be limited.
-- No Overclocking: Because of the A620 chipset which does not allow overclocking I was not really able to get everything out of the APU.
+I was a little disappointed by the results. I did not expect my system to perform this much worse compared to the average for the same CPU–GPU combination. Based on my findings, there are two main reasons for this:
+
+- **Low Memory Frequency**: In my opinion, this is the biggest reason. Since I was not able to buy faster RAM, the limited memory bandwidth caused the GPU to be bottlenecked.
+- **No Overclocking**: Due to the A620 chipset, which does not allow overclocking, I was not able to get the full performance out of the APU.
 
 ![image](photos/firestrike.png)
 
-##### Before vs. After BIOS Update
-Before the BIOS update the version of the bios was F23, first released in April 2024. I downloaded and installed the F38 Version and got the following difference in Firestrike.
+---
+
+### Before vs. After BIOS Update
+
+Before the BIOS update, the system was running BIOS version **F23**, first released in April 2024. I then downloaded and installed version **F38**, which resulted in the following difference in Fire Strike:
+
 ![image](photos/before_after_firestrike.png)
-I even reran cinebench but the difference in the results was basically zero meaning i did not include it here. This fact means that the biggest difference lies in the GPU.
 
-When it comes to differences in gaming I managed to find how much FPS i had in the same stop at 1080p on Deathmatch Mirage in CS2. The difference is actually pretty significant as you can see. We went from 89 to 108 FPS. But the LOW and HIGH FPS stayed almost the same.
+I also re-ran Cinebench, but the difference in results was basically zero, so I did not include it here. This indicates that the biggest improvement came from the GPU.
 
-![image](photos/cs_bef.png)
-![image](photos/cs_aft.png)
+For gaming performance, I tested FPS at the same location at 1080p on Deathmatch Mirage in CS2. The difference is quite significant: performance increased from **89 FPS to 108 FPS**. However, the low and high FPS values stayed almost the same.
 
-In PUBG the difference overall was not as significant. But this could be caused by the fact that I unfortunately tested everything on two different maps.
-![image](photos/pubg_bef.png)
-![image](photos/pubg_aft.png)
+<p align="center">
+  <img src="photos/cs_bef.png" width="48%">
+  <img src="photos/cs_aft.png" width="48%">
+</p>
 
+In PUBG, the overall difference was not as significant. This may be due to the fact that the tests were performed on two different maps.
+
+<p align="center">
+  <img src="photos/pubg_bef.png" width="48%">
+  <img src="photos/pubg_aft.png" width="48%">
+</p>
